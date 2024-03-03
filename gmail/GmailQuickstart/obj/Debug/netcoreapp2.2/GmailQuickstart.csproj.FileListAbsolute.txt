@@ -1,0 +1,22 @@
+C:\Users\lf.martinez\Documents\entornoTaxChat\gmail\dotnet-samples\gmail\GmailQuickstart\bin\Debug\netcoreapp2.2\GmailQuickstart.deps.json
+C:\Users\lf.martinez\Documents\entornoTaxChat\gmail\dotnet-samples\gmail\GmailQuickstart\bin\Debug\netcoreapp2.2\GmailQuickstart.runtimeconfig.json
+C:\Users\lf.martinez\Documents\entornoTaxChat\gmail\dotnet-samples\gmail\GmailQuickstart\bin\Debug\netcoreapp2.2\GmailQuickstart.runtimeconfig.dev.json
+C:\Users\lf.martinez\Documents\entornoTaxChat\gmail\dotnet-samples\gmail\GmailQuickstart\bin\Debug\netcoreapp2.2\GmailQuickstart.dll
+C:\Users\lf.martinez\Documents\entornoTaxChat\gmail\dotnet-samples\gmail\GmailQuickstart\bin\Debug\netcoreapp2.2\GmailQuickstart.pdb
+C:\Users\lf.martinez\Documents\entornoTaxChat\gmail\dotnet-samples\gmail\GmailQuickstart\obj\Debug\netcoreapp2.2\GmailQuickstart.AssemblyInfoInputs.cache
+C:\Users\lf.martinez\Documents\entornoTaxChat\gmail\dotnet-samples\gmail\GmailQuickstart\obj\Debug\netcoreapp2.2\GmailQuickstart.AssemblyInfo.cs
+C:\Users\lf.martinez\Documents\entornoTaxChat\gmail\dotnet-samples\gmail\GmailQuickstart\obj\Debug\netcoreapp2.2\GmailQuickstart.dll
+C:\Users\lf.martinez\Documents\entornoTaxChat\gmail\dotnet-samples\gmail\GmailQuickstart\obj\Debug\netcoreapp2.2\GmailQuickstart.pdb
+C:\Users\lf.martinez\Documents\entornoTaxChat\gmail\dotnet-samples\gmail\GmailQuickstart\obj\Debug\netcoreapp2.2\GmailQuickstart.csprojAssemblyReference.cache
+C:\Users\um785tm\OneDrive - EY\Documents\entornoTaxChat\taxchat-test-automation\gmail\GmailQuickstart\bin\Debug\netcoreapp2.2\GmailQuickstart.deps.json
+C:\Users\um785tm\OneDrive - EY\Documents\entornoTaxChat\taxchat-test-automation\gmail\GmailQuickstart\bin\Debug\netcoreapp2.2\GmailQuickstart.runtimeconfig.json
+C:\Users\um785tm\OneDrive - EY\Documents\entornoTaxChat\taxchat-test-automation\gmail\GmailQuickstart\bin\Debug\netcoreapp2.2\GmailQuickstart.runtimeconfig.dev.json
+C:\Users\um785tm\OneDrive - EY\Documents\entornoTaxChat\taxchat-test-automation\gmail\GmailQuickstart\bin\Debug\netcoreapp2.2\GmailQuickstart.dll
+C:\Users\um785tm\OneDrive - EY\Documents\entornoTaxChat\taxchat-test-automation\gmail\GmailQuickstart\bin\Debug\netcoreapp2.2\GmailQuickstart.pdb
+C:\Users\um785tm\OneDrive - EY\Documents\entornoTaxChat\taxchat-test-automation\gmail\GmailQuickstart\obj\Debug\netcoreapp2.2\GmailQuickstart.csprojAssemblyReference.cache
+C:\Users\um785tm\OneDrive - EY\Documents\entornoTaxChat\taxchat-test-automation\gmail\GmailQuickstart\obj\Debug\netcoreapp2.2\GmailQuickstart.csproj.CoreCompileInputs.cache
+C:\Users\um785tm\OneDrive - EY\Documents\entornoTaxChat\taxchat-test-automation\gmail\GmailQuickstart\obj\Debug\netcoreapp2.2\GmailQuickstart.AssemblyInfoInputs.cache
+C:\Users\um785tm\OneDrive - EY\Documents\entornoTaxChat\taxchat-test-automation\gmail\GmailQuickstart\obj\Debug\netcoreapp2.2\GmailQuickstart.AssemblyInfo.cs
+C:\Users\um785tm\OneDrive - EY\Documents\entornoTaxChat\taxchat-test-automation\gmail\GmailQuickstart\obj\Debug\netcoreapp2.2\GmailQuickstart.dll
+C:\Users\um785tm\OneDrive - EY\Documents\entornoTaxChat\taxchat-test-automation\gmail\GmailQuickstart\obj\Debug\netcoreapp2.2\GmailQuickstart.pdb
+C:\Users\um785tm\OneDrive - EY\Documents\entornoTaxChat\taxchat-test-automation\gmail\GmailQuickstart\obj\Debug\netcoreapp2.2\GmailQuickstart.genruntimeconfig.cache

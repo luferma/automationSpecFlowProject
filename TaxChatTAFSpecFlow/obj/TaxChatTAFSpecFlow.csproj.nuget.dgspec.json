@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\um785tm\\OneDrive - EY\\Documents\\entornoTaxChat\\taxchat-test-automation\\TaxChatTAFSpecFlow\\TaxChatTAFSpecFlow.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\um785tm\\OneDrive - EY\\Documents\\entornoTaxChat\\taxchat-test-automation\\TaxChatTAFSpecFlow\\TaxChatTAFSpecFlow.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\um785tm\\OneDrive - EY\\Documents\\entornoTaxChat\\taxchat-test-automation\\TaxChatTAFSpecFlow\\TaxChatTAFSpecFlow.csproj",
+        "projectName": "TaxChatTAFSpecFlow",
+        "projectPath": "C:\\Users\\um785tm\\OneDrive - EY\\Documents\\entornoTaxChat\\taxchat-test-automation\\TaxChatTAFSpecFlow\\TaxChatTAFSpecFlow.csproj",
+        "packagesPath": "C:\\Users\\um785tm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\um785tm\\OneDrive - EY\\Documents\\entornoTaxChat\\taxchat-test-automation\\TaxChatTAFSpecFlow\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\um785tm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://eyctpeu.jfrog.io/artifactory/api/nuget/v3/hydra-nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Chromium.ChromeDriver": {
+              "target": "Package",
+              "version": "[2.37.0, )"
+            },
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "ExtentReports.Core": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Faker.Net": {
+              "target": "Package",
+              "version": "[1.3.77, )"
+            },
+            "GitForWindows": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "Google.Apis.Gmail.v1": {
+              "target": "Package",
+              "version": "[1.46.0.1985, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "Microsoft.TestPlatform.ObjectModel": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[0.69.2, )"
+            },
+            "NBuilder": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.16.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[83.0.4103.3900, )"
+            },
+            "Selenium.WebDriver.GeckoDriver.Win64": {
+              "target": "Package",
+              "version": "[0.26.0, )"
+            },
+            "Selenium.WebDriver.IEDriver64": {
+              "target": "Package",
+              "version": "[3.141.59, )"
+            },
+            "Selenium.WebDriver.MSEdgeDriver": {
+              "target": "Package",
+              "version": "[83.0.478.37, )"
+            },
+            "Selenium.WebDriver.MicrosoftDriver": {
+              "target": "Package",
+              "version": "[17.17134.0, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.1.97, )"
+            },
+            "SpecFlow.Assist.Dynamic": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.1.97, )"
+            },
+            "SpecFlow.NUnit.Runners": {
+              "target": "Package",
+              "version": "[3.1.97, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.1.97, )"
+            },
+            "SpecRun.Runner": {
+              "target": "Package",
+              "version": "[3.2.31, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

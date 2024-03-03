@@ -1,0 +1,220 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <SpecFlowObsoleteCodeBehindFiles Remove="features\ChatValidationMessages - Copy.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="features\CompleteParticipantInformation - Copy.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="features\CompleteParticipantInformationB2B2C - Copy.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="features\CompleteParticipantInformationB2CUsers - Copy.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="features\CompleteParticipantInformationWithCreatedUsersB2B2C - Copy.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="features\OnboardingUser - Copy.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="features\PaymentProcess - Copy.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="features\SpigotValidationQuote - Copy.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="features\ValidateDocumentsProfileInformation - Copy.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="features\ValidateFieldsProfileInformation - Copy.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="features\ValidationInTheParticipantInformation - Copy.feature.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Chromium.ChromeDriver" Version="2.37.0" />
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="ExtentReports.Core" Version="1.0.3" />
+    <PackageReference Include="Faker.Net" Version="1.3.77" />
+    <PackageReference Include="GitForWindows" Version="2.27.0" />
+    <PackageReference Include="Google.Apis.Gmail.v1" Version="1.46.0.1985" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
+    <PackageReference Include="Microsoft.TestPlatform.ObjectModel" Version="16.6.1" />
+    <PackageReference Include="MySqlConnector" Version="0.69.2" />
+    <PackageReference Include="NBuilder" Version="6.1.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="83.0.4103.3900" />
+    <PackageReference Include="Selenium.WebDriver.GeckoDriver.Win64" Version="0.26.0" />
+    <PackageReference Include="Selenium.WebDriver.IEDriver64" Version="3.141.59" />
+    <PackageReference Include="Selenium.WebDriver.MicrosoftDriver" Version="17.17134.0" />
+    <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="83.0.478.37" />
+    <PackageReference Include="SpecFlow" Version="3.1.97" />
+    <PackageReference Include="SpecFlow.Assist.Dynamic" Version="1.4.2" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.1.97" />
+    <PackageReference Include="SpecFlow.NUnit.Runners" Version="3.1.97" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.1.97" />
+    <PackageReference Include="SpecRun.Runner" Version="3.2.31" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="features\OnboardingUser.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>OnboardingUser.feature.cs</LastGenOutput>
+    </None>
+    <None Update="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="drivers\" />
+    <Folder Include="resources\" />
+    <Folder Include="test\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="features\ValidationFieldOnBoardingB2CUser.feature.cs">
+      <DependentUpon>ValidationFieldOnBoardingB2CUser.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\RecoveryPasswordUser.feature.cs">
+      <DependentUpon>RecoveryPasswordUser.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\CompleteAndValidateCountryState.feature.cs">
+      <DependentUpon>CompleteAndValidateCountryState.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\CompleteParticipantInformationWithCreatedUsersB2B2C.feature.cs">
+      <DependentUpon>CompleteParticipantInformationWithCreatedUsersB2B2C.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\CompleteParticipantInformationForMassiveUsers.feature.cs">
+      <DependentUpon>CompleteParticipantInformationForMassiveUsers.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\ChatValidationMessages.feature.cs">
+      <DependentUpon>ChatValidationMessages.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\PaymentProcess.feature.cs">
+      <DependentUpon>PaymentProcess.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\ValidateFieldsProfileInformationWithCreatedUsers.feature.cs">
+      <DependentUpon>ValidateFieldsProfileInformationWithCreatedUsers.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\ValidateReferralCodeByTile.feature.cs">
+      <DependentUpon>ValidateReferralCodeByTile.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\ValidateFieldsProfileInformation.feature.cs">
+      <DependentUpon>ValidateFieldsProfileInformation.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\ValidateDocumentsProfileInformation.feature.cs">
+      <DependentUpon>ValidateDocumentsProfileInformation.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\ValidateCCHConnection.feature.cs">
+      <DependentUpon>ValidateCCHConnection.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\ConsentsValidation.feature.cs">
+      <DependentUpon>ConsentsValidation.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\ValidationInTheParticipantInformation.feature.cs">
+      <DependentUpon>ValidationInTheParticipantInformation.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\CompleteParticipantInformationB2CUsers.feature.cs">
+      <DependentUpon>CompleteParticipantInformationB2CUsers.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\ConfirmationB2B2C.feature.cs">
+      <DependentUpon>ConfirmationB2B2C.feature</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="features\CompleteParticipantInformationB2B2C.feature.cs">
+      <DependentUpon>CompleteParticipantInformationB2B2C.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\OnboardingUserMarried.feature.cs">
+      <DependentUpon>OnboardingUserMarried.feature</DependentUpon>
+    </Compile>
+    <Compile Update="features\SpigotValidationQuote.feature.cs">
+      <DependentUpon>SpigotValidationQuote.feature</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <SpecFlowFeatureFiles Update="features\ValidationFieldOnBoardingB2CUser.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\RecoveryPasswordUser.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\CompleteAndValidateCountryState.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\CompleteParticipantInformationWithCreatedUsersB2B2C.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\CompleteParticipantInformationForMassiveUsers.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\ChatValidationMessages.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\PaymentProcess.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\ValidateFieldsProfileInformationWithCreatedUsers.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\ValidateReferralCodeByTile.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\ValidateFieldsProfileInformation.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\ValidateDocumentsProfileInformation.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\ValidateCCHConnection.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\ConsentsValidation.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\ValidationInTheParticipantInformation.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\CompleteParticipantInformationB2CUsers.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\ConfirmationB2B2C.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>ConfirmationB2B2C.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\CompleteParticipantInformationB2B2C.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\OnboardingUserMarried.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="features\SpigotValidationQuote.feature">
+      <Visible>$(UsingMicrosoftNETSdk)</Visible>
+      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
+    </SpecFlowFeatureFiles>
+  </ItemGroup>
+
+</Project>

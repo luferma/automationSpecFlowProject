@@ -1,0 +1,91 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace TaxChatTAF
+{
+    static class configConstants
+    {
+        //documentsURL
+        public const string QUALITY_URL = "https://taxchat:Locknuts_97@taxchatdocumentsq.ey.com/";
+        public const string TEST_URL = "https://taxchat:Locknuts_97@taxchatdocumentst.ey.com/";
+        public const string UAT_URL = "https://taxchat:Locknuts_97@taxchatdocumentsu.ey.com/";
+        public const string DEV_URL = "https://taxchat:Locknuts_97@taxchatdocumentsd.ey.com/";
+        public const string PREPARER_URL_Q = "https://taxchat:Locknuts_97@taxchatpreparerq.ey.com/#!/users/login";
+        public const string PREPARER_URL_T = "https://taxchat:Locknuts_97@taxchatpreparert.ey.com/#!/users/login";        
+        public const string PREPARER_URL_UAT = "https://taxchat:Locknuts_97@taxchatprepareru.ey.com/#!/users/login";        
+        public const string PREPARER_URL_DEV = "https://taxchat:Locknuts_97@taxchatpreparerd.ey.com/#!/users/login";
+        public const string documentsDevURL = "https://taxchat:Locknuts_97@taxchatdocumentsd.ey.com/";
+        public const string EMAIL_URL = "https://mail.google.com/";
+        public const string userName = "";
+        public const string password = "";
+        public const string CHILDREN_DEPENDENTS = "Children/Dependents/ITIN"; 
+        public const string MORTAGE = "Mortgage";        
+        public const string US_RENTAL_PROPERTIES = "US rental properties";
+        public const string SELF_EMPLOYED = "Self-employed";
+        public const string INVESTMENT_INCOME = "Investment Income";
+        public const string FOREIGN_INCOME = "Foreign Income";
+        public const string K1_INCOME = "K-1 Income";
+        public const string CRYPTOCURRENCY = "Cryptocurrency";
+        public const string W2S = "W-2s";
+        public const string EDUCATION_EXPENSES = "Education expenses";
+        public const string IRA = "IRA";
+        public const string USER_PASSWORD = "Abcd1234GLB";
+        public const string SEARCH_RESULTS = "1 results — Page 1 of 1";
+        public const string B2B2C_EMAIL = "lf.martinez@globant.com";
+        public const string PASS_B2B2C_EMAIL = "LuiferEmpresa08";
+        public const string PREPARER_USER_Q = "Luis.Martinez.Galvez@co.ey.com";
+        public const string PREPARER_PASS_Q = "Test123456";
+        public const string PREPARER_USER_UAT = "daniel.perez2@ey.com";
+        public const string PREPARER_PASS_UAT = "Daniel1234";
+        public const string PREPARER_USER_DEV = "taxchat+super_admin_1@iinteractive.com";
+        public const string PREPARER_PASS_DEV = "Compasser_744";
+        public const string ROUTE_COMPLETE_UPLOAD = "resources\\";        
+        public const string ROUTE_COMPLETE_GMAIL_JSON = "resources\\credentials.json";
+        public const string TEACHING_EXPENSES_MESSAGE_TO_VALIDATE = "This value must be between $1 and $250 (inclusive)";
+        public const string TEACHING_EXPENSES_MESSAGE_WRONG_VALUE = "Please enter a validate value";
+        public const string TEACHING_EXPENSES_VALUE_TO_VALIDATE = "250";
+        public const string MESSAGE_VALIDATE_ROUTING = "Routing number is invalid";
+        public const string MESSAGE_BANK_ROUTING_DOES_NOT_MATCH = "Bank routing numbers do not match";
+        public const string MESSAGE_VALIDATE_ACCOUNT_NUMBER = "Account number is invalid";
+        public const string MESSAGE_ACCOUNT_NUMBER_DOES_NOT_MATCH = "Bank account numbers do not match";
+        public const string ROUTE_REPORT_AUTOMATION = "report\\report.html";
+        public const string NAME_FILE_AUTOIT = "closeDialogUploadFile.exe";
+        public const string PARTICIPANT_URL_Q = "https://taxchat:Locknuts_97@taxchatdocumentsq.ey.com/#!/users/login";
+        public const string VALIDATION_PASS_UPPER = "AAAAAAAAAA";
+        public const string VALIDATION_PASS_LOWER = "aaaaaaaaaa";
+        public const string VALIDATION_PASS_NUMBER = "1111111111";
+        public const string VALIDATION_PASS_LENGTH = "Prueba123";
+        public const string MESSAGE_VALIDATION_PASSWORD = "Password must contain one uppercase letter, one lowercase letter, and one number.";
+        public const string MESSAGE_VALIDATION_LENGTH_PASSWORD = "Password is too short.";
+        public const string ROUTE_DRIVER_BROWSER = "drivers\\";
+        public const int QUANTTY_BASE_DOCUMENTS = 2;
+        public const int QUANTTY_BASE_ITIN_DOCUMENTS = 4;
+        public const string ROUTE_APP_DRIVER_COOKIES = "C:\\Users\\um785tm\\AppData\\Local\\Google\\Chrome\\User Data";
+        public const string COOKIES_FILE = "resources\\browser.data";
+        public const string PATH_IMAGES_ERROR_EXECUTION = "\\report\\screenshots\\";
+        public const string MEDICAL_EXPENSES_VALUE_TO_VALIDATE = "5";
+        public const string MESSAGE_VALIDATION_MEDICAL_EXPENSES = "Please enter a value greater than 0";
+        public const string MEDICAL_EXPENSES_BIG_VALUE_TO_VALIDATE = "250000000";
+        public const string ALL_DOCS_CONFIRMED_STATUS = "All Docs Submitted confirmed";
+        public const string TRUE = "true";
+        public const string REFERRAL_TEXT_1_PART = "Your final price will be reduced by";
+        public const string REFERRAL_TEXT_2_PART = "before final payment";
+        public const string INVALID_REFERRAL_CODE = "invalid code";
+        public const string ROUTE_REPORT_COPY_AUTOMATION = "report\\";
+        public const string LABEL_NEW_YORK_SELECT_VALUE = "NY";
+        public const string RETURN_RELEASED_STATUS = "Return Released";
+        public const string FIRST_CHAT_TITLE = "will respond to you as soon as possible, no later than two business days";
+        public const string SECOND_CHAT_TITLE = "If your matter is urgent, you can also leave a voicemail for our support team at";
+        public const string CHAT_MESSAGE = "This is an automated message to let you know that the first step is for you to provide us";
+        public const string TITLE_WINDOW_1 = "Updated";
+        public const string TITLE_WINDOW_2 = "You have successfully updated";
+        public const string ERROR_500 = "500";
+        public const string NEW_PASSWORD = "Abcd1234GTT";
+        public const string DRIVER_CHROME = "CHROME";
+        public const string DRIVER_FIREFOX = "FIREFOX";
+        public const string DRIVER_IE = "IE";
+        public const string DRIVER_EDGE = "EDGE";
+        public const string OTHER_OPTION_TEXT_HOW_DID_LIST = "Test";
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TaxChatTAFSpecFlow",
+    "\\TaxChatTAFSpecFlow\\models",
+    "\\TaxChatTAFSpecFlow\\pages",
+    "\\TaxChatTAFSpecFlow\\Properties",
+    "\\TaxChatTAFSpecFlow\\report",
+    "\\TaxChatTAFSpecFlow\\resources",
+    "\\TaxChatTAFSpecFlow\\settings",
+    "\\TaxChatTAFSpecFlow\\steps",
+    "\\TaxChatTAFSpecFlow\\utils"
+  ],
+  "SelectedNode": "\\TaxChatTAFSpecFlow\\utils\\GmailQuickstart.cs",
+  "PreviewInSolutionExplorer": false
+}

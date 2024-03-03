@@ -1,0 +1,9 @@
+TaxChatTAFSpecFlow/.vs/*
+TaxChatTAFSpecFlow/bin/Debug/netcoreapp3.0/report/screenshots/*
+/TaxChatTAFSpecFlow/report/**
+TaxChatTAFSpecFlow/report/*
+TaxChatTAFSpecFlow/report/**
+/TaxChatTAFSpecFlow/bin/
+TaxChatTAFSpecFlow/bin/
+
+

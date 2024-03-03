@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TaxChatTAFSpecFlow": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\um785tm\\OneDrive - EY\\Documents\\entornoTaxChat\\taxchat-test-automation"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "hxQroysLIxGvAllmmvSjztTi1y1f4eSixz1iuTQRz5k96k2Jo+gVheysBr65Nd2o7wZVMSlKykrkfIxeiVq+oA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\um785tm\\OneDrive - EY\\Documents\\entornoTaxChat\\taxchat-test-automation\\gmail\\GmailQuickstart\\GmailQuickstart.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\um785tm\\.nuget\\packages\\google.apis\\1.44.0\\google.apis.1.44.0.nupkg.sha512",
+    "C:\\Users\\um785tm\\.nuget\\packages\\google.apis.auth\\1.44.0\\google.apis.auth.1.44.0.nupkg.sha512",
+    "C:\\Users\\um785tm\\.nuget\\packages\\google.apis.core\\1.44.0\\google.apis.core.1.44.0.nupkg.sha512",
+    "C:\\Users\\um785tm\\.nuget\\packages\\google.apis.gmail.v1\\1.44.0.1859\\google.apis.gmail.v1.1.44.0.1859.nupkg.sha512",
+    "C:\\Users\\um785tm\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
+    "C:\\Users\\um785tm\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
+    "C:\\Users\\um785tm\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.2.0\\microsoft.netcore.dotnethostpolicy.2.2.0.nupkg.sha512",
+    "C:\\Users\\um785tm\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
+    "C:\\Users\\um785tm\\.nuget\\packages\\microsoft.netcore.platforms\\2.2.0\\microsoft.netcore.platforms.2.2.0.nupkg.sha512",
+    "C:\\Users\\um785tm\\.nuget\\packages\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
+    "C:\\Users\\um785tm\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\um785tm\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
